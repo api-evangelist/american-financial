@@ -1,33 +1,37 @@
 # American Financial (american-financial)
-American Financial is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for American Financial.
+American Financial is a financial services company providing lending, investment, and financial management solutions. This repository tracks APIs, developer tools, and machine-readable API artifacts for American Financial.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/american-financial/refs/heads/main/apis.yml)
+**URL:** [https://www.american-financial.com](https://www.american-financial.com)
 
-## Scope
-
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - Fortune 500
+ - Financial Services, Finance, Lending
 
 ## Timestamps
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-03-21
-
-## APIs
-
-No public APIs have been documented yet. Contributions welcome.
+- **Created:** 2024-11-15
+- **Modified:** 2026-04-19
 
 ## Common Properties
 
 - [Website](https://www.american-financial.com)
 
+## Features
+
+| Name | Description |
+|------|-------------|
+| Financial Services | Financial services including lending, investment products, and financial management solutions for consumers and businesses. |
+
+## Use Cases
+
+| Name | Description |
+|------|-------------|
+| Personal Finance Management | Tools and products to help individuals manage their financial health, savings, and investment portfolios. |
+
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
 **Email:** info@apievangelist.com
