@@ -6,6 +6,11 @@ description: >-
   and financial management solutions. This repository tracks APIs, developer tools,
   and machine-readable API artifacts for American Financial.
 tags:
+  - Financial-Services
+  - Finance
+  - Lending
+  - Fortune 500
+tags_raw:
   - Financial Services
   - Finance
   - Lending
