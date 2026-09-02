@@ -1,0 +1,53 @@
+generated: '2026-09-02'
+method: probed
+source: live probes of the only host recorded for this profile (www.american-financial.com)
+note: >-
+  Every named /.well-known/ path was probed and every one missed. The host does not belong to an
+  operating company: www.american-financial.com is a CNAME to traff-https.hugedomains.com and every
+  path either 404s or 302s to the HugeDomains "this domain is for sale" listing at
+  https://www.hugedomains.com/domain_profile.cfm?d=american-financial.com. Nothing was fetched and
+  nothing was saved, so NO WellKnown and NO SecurityTxt pointer is emitted for this repository —
+  this file records a verified absence, not a served surface.
+hit_count: 0
+path_echo_control: passed
+soft_404_control:
+  path: /.well-known/american-financial-negative-control-7f3ab91c.json
+  status: 404
+  bytes: 0
+  note: >-
+    A path that cannot exist. HEAD returns 404 and GET returns a 302 into the parking redirect with a
+    zero-byte body, so this host is not a path-echoing or catch-all 200 responder.
+hosts:
+  - host: https://www.american-financial.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/ucp.json
+        status: 404
+      - path: /.well-known/acp.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+x-evidence:
+  fetched: '2026-09-02'
+  dns:
+    - {name: www.american-financial.com, type: CNAME, value: traff-https.hugedomains.com}
+    - {name: american-financial.com, type: NS, value: nsg1.namebrightdns.com}
+  probes:
+    - {url: 'https://www.american-financial.com/', status: 200, note: 'redirects to hugedomains.com domain-for-sale listing'}
+    - {url: 'https://www.american-financial.com/robots.txt', status: 200, note: 'parking-service robots.txt, 26 bytes'}
+    - {url: 'https://www.american-financial.com/.well-known/agent-card.json', status: 404}
