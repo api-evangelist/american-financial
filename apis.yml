@@ -11,11 +11,12 @@ description: >-
   Insurance Group) is a different company and is profiled separately in this catalog as
   american-financial-group, where its Great American Carrier Services APIs belong.
 tags:
-  - Financial-Services
+  - Financial Services
   - Finance
 tags_raw:
   - Financial Services
   - Finance
+  - Financial-Services
 type: Index
 deliveryModel:
   model: unknown
