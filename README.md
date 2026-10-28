@@ -1,4 +1,4 @@
-# American Financial (american-financial)
+# American Financial
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,39 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-American Financial is a financial services company providing lending, investment, and financial management solutions. This repository tracks APIs, developer tools, and machine-readable API artifacts for American Financial.
+American Financial is a financial-services profile in the API Evangelist catalog for which no operating company could be resolved on 2026-09-02. The only host ever recorded for it, american-financial.com, is not run by a business: it is a CNAME to traff-https.hugedomains.com and redirects to a HugeDomains "this domain is for sale" listing, so there is no website, no developer program, no documentation and no machine-readable API artifact behind this name. The Fortune 500 insurance and annuities holding company American Financial Group, Inc. (NYSE: AFG, Great American Insurance Group) is a different company and is profiled separately in this catalog as american-financial-group, where its Great American Carrier Services APIs belong.
 
-**URL:** [https://www.american-financial.com](https://www.american-financial.com)
+**Areas:** Financial Services · Finance
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## American Financial on APIs.io
 
-## Tags:
+Everything profiled for American Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/american-financial/](https://apis.io/providers/american-financial/)** — or go straight to one of the APIs or properties below.
 
- - Financial Services, Finance, Lending
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2024-11-15
-- **Modified:** 2026-04-19
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Website](https://www.american-financial.com)
+- [American Financial Domain Security](https://apis.io/security/american-financial/american-financial-domain-security/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Financial Services | Financial services including lending, investment products, and financial management solutions for consumers and businesses. |
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## Use Cases
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-| Name | Description |
-|------|-------------|
-| Personal Finance Management | Tools and products to help individuals manage their financial health, savings, and investment portfolios. |
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for American Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** info@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/american-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
